@@ -188,6 +188,9 @@
   .inline-block {
     display: inline-block;
   }
+  .table {
+    display: table;
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
