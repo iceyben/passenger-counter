@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bg-blue-200 p-10 m-10 text-center">
+      <h1 class="text-2xl font-bold pb-4">People counter App</h1>
+      <h1 class="text-6xl font-bold pb-4" id="count_ppl">0</h1>
+      <a
+        href="#"
+        onclick="increment()"
+        id="increment"
+        class="bg-green-500 px-6 text-sm font-bold text-white rounded-lg shadow-2xl py-2 my-4 inline-block hover:bg-transparent hover:border-2"
+        ><i class="bx bx-up-arrow-circle text-3xl hover:animate-bounce"></i
+      ></a>
+
+      <a
+        href="#"
+        onclick="decrement()"
+        id="increment"
+        class="bg-red-500 px-6 text-sm font-bold text-white rounded-lg shadow-2xl py-2 inline-block mb-4 hover:bg-transparent hover:border-2"
+        ><i class="bx bx-down-arrow-circle text-3xl hover:animate-bounce"></i
+      ></a>
+
+      <a
+        href="#"
+        onclick="save()"
+        id="save-btn"
+        class="bg-green-500 px-6 text-sm font-bold text-white rounded-lg shadow-2xl py-2 inline-block hover:bg-transparent hover:border-2"
+        ><i class="bx bxs-save text-3xl hover:animate-bounce"></i
+      ></a>
+
+      <p class="text-blue-500 text-sm font-bold" id="save_el">
+        Previous entries:<br />
+      </p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
